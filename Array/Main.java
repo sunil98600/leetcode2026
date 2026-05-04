@@ -9,5 +9,7 @@ public class Main {
       int largestElement1 = Q1_LargestElement.betterLargest(arr);
       System.out.println(largestElement);
 
+      int secondLargest = Q2_SecondLargestElement.secondLargest(arr);
+      System.out.println(secondLargest);
   }
 }
