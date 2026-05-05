@@ -14,5 +14,7 @@
 
         boolean isSortedArray = Q3_SortedArray.sortedArray(arr);
         System.out.println(isSortedArray);
+        boolean isSortedArray1 = Q3_SortedArray.isSortedArray(arr);
+        System.out.println(isSortedArray1);
     }
   }
