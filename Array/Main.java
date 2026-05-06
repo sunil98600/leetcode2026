@@ -1,7 +1,7 @@
   package Array;
   public class Main {
     public static void main(String[] args) {
-        int[] arr = {2,3,8,7,6};
+        int[] arr = {1,2,3,4,5};
         // largest number using sort function
         // int largestElement = Q1_LargestElement.largest(arr);
         // System.out.println(largestElement);
@@ -12,9 +12,14 @@
         // int secondLargest = Q2_SecondLargestElement.secondLargest(arr);
         // System.out.println(secondLargest);
 
-        boolean isSortedArray = Q3_SortedArray.sortedArray(arr);
-        System.out.println(isSortedArray);
-        boolean isSortedArray1 = Q3_SortedArray.isSortedArray(arr);
-        System.out.println(isSortedArray1);
+        // boolean isSortedArray = Q3_SortedArray.sortedArray(arr);
+        // System.out.println(isSortedArray);
+        // boolean isSortedArray1 = Q3_SortedArray.isSortedArray(arr);
+        // System.out.println(isSortedArray1);
+
+        // int uniqueNumber = Q4_RemoveDuplicates.removeDuplicates(arr);
+        // System.out.println(uniqueNumber);
+
+        Q5_RotateArray.rotateArray(arr, 3);
     }
   }
